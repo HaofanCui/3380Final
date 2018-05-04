@@ -18,17 +18,17 @@
 <title>reg</title>
 </head>
 <body>
-<h1 align="center">Update Team Info</h1>
+<h1 align="center">Update Player Info</h1>
 <hr>
 
-<form action="updateInfo1.php" method="post">
+<form action="updateInfo.php" method="post">
 <table border="1" align="center">
 
-<tr><td>teamname</td><td><input type="text" name="teamname" value="<?php echo $teamname?>" readonly="readonly"></td></tr>
-<tr><td>email</td><td><input type="text" name="email" value="<?php echo $email ?>"></td></tr>
-<tr><td>located</td><td><input type="text" name="located" value="<?php echo $located?>"></td></tr>
-<tr><td>website</td><td><input type="text" name="captain" value="<?php echo $captain?>"></td></tr>
-<tr><td>dial</td><td><input type="text" name="dial" value="<?php echo $dial?>"></td></tr>
+<tr><td>id</td><td><input type="text" name="playerId" value="<?php echo $playerId?>" readonly="readonly"></td></tr>
+<tr><td>name</td><td><input type="text" name="playerName" value="<?php echo $playerName ?>"></td></tr>
+<tr><td>dateofbirth</td><td><input type="text" name="dateofbirth" value="<?php echo $dateofbirth?>"></td></tr>
+<tr><td>team</td><td><input type="text" name="playerTeam" value="<?php echo $playerTeam?>"></td></tr>
+<tr><td>number</td><td><input type="text" name="playerNum" value="<?php echo $playerNum ?>"></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="submit">&nbsp;<input type="reset" value="reset">&nbsp;<input type="button" value="return" onclick="javascript:window.location.href='showInfo.php';"></td></tr>
 </table>
 </form>
