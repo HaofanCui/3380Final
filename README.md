@@ -11,16 +11,18 @@
  
  ***schema of the database***
  There are 3 tables in total.
-**userinfo** - this table is responsible for the login and register with 3 columns: userid, username and password. Once people register it, the information will be saved in the database and then they can use the id and password to log in.
+ 
+ - **userinfo** this table is responsible for the login and register with 3 columns: userid, username and password. Once people register it, the information will be saved in the database and then they can use the id and password to log in.
 
-**playerinfo**-this table records personal information of players with 5 columns: id(primary key), name, date of birth, team and number. People are able to manege the player information through this table.
+ - **playerinfo** this table records personal information of players with 5 columns: id(primary key), name, date of birth, team and number. People are able to manege the player information through this table.
 
-**teaminfo**-this table records the information of the team with 5 columns: name, email, located, website and dial. You can view this page through a button under the player information form. 
+ - **teaminfo** this table records the information of the team with 5 columns: name, email, located, website and dial. You can view this page through a button under the player information form. 
 
 **ERD**
 http://xahhxls.epizy.com/ERD.png
 
 **CRUD**
+
 **C**- You can through a button "Add"  to achieve the features of CREATE. When you click add, a new page will pop up and you can enter player information and team information to create a new record. After enter the information, you can click "submit" to save the record or "reset" to re-enter.
 
 **R** -When log in to the website, you will arrive a page named "showinfo" where you can read all the records. After C, U, D operate you will return to the showinfo page automatically so that you can see the latest form in the first time.
@@ -29,7 +31,7 @@ http://xahhxls.epizy.com/ERD.png
 
 **D**-In the end of every record you will see two buttons, another is "delete". When click it, you will delete the record. If delete successful, it will return to the form and display "delete successful".
  
-Website:
+**Our Website:**
 http://xahhxls.epizy.com/
  
   
