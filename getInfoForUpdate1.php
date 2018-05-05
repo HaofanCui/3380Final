@@ -27,7 +27,7 @@
 <tr><td>teamname</td><td><input type="text" name="teamname" value="<?php echo $teamname?>" readonly="readonly"></td></tr>
 <tr><td>email</td><td><input type="text" name="email" value="<?php echo $email ?>"></td></tr>
 <tr><td>located</td><td><input type="text" name="located" value="<?php echo $located?>"></td></tr>
-<tr><td>website</td><td><input type="text" name="captain" value="<?php echo $captain?>"></td></tr>
+<tr><td>website</td><td><input type="text" name="website" value="<?php echo $website?>"></td></tr>
 <tr><td>dial</td><td><input type="text" name="dial" value="<?php echo $dial?>"></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="submit">&nbsp;<input type="reset" value="reset">&nbsp;<input type="button" value="return" onclick="javascript:window.location.href='showInfo.php';"></td></tr>
 </table>
