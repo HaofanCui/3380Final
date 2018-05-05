@@ -1,6 +1,6 @@
 ﻿## CS-3380 FINAL PROJECT
 ***Team members*** 
- 1. Song Shusheng, ID: 14304314
+ 1. Song Shushen, ID: 14304314
      Be responsible for the design of the website, include interface, fort, form and the connection between MySQL and php. 
  2. Cui Haofan, ID:14304746 
      Be responsible for the operate in the MySQL(CRUD), and the connection between MySQL and php.
